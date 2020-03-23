@@ -34,7 +34,7 @@
 					<a href="tel:+74999228974" class="header__phone_m">
 						<span class="icon-phone"></span>
 					</a>
-					<button class="button">заказать звонок</button>
+					<button data-modal="consultation" class="button">заказать звонок</button>
 				</div>
 			</header>
 
@@ -61,7 +61,7 @@
 					</div>
 				</div>
 
-				<button class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
+				<button data-modal="consultation" class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
 				<div class="promo__link">
 					или 
 					<a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
@@ -177,7 +177,7 @@
 								4 500 руб.
 							</div>
 						</div>
-						<button class="button button_mini">КУПИТЬ</button>
+						<button data-modal="order" class="button button_mini">КУПИТЬ</button>
 					</div>
 				</div>
 				<div class="catalog-item">
@@ -185,7 +185,7 @@
 						<div class="catalog-item__content catalog-item__content_active">
 							<img src="img/img_item.jpg" alt="img_item" class="catalog-item__img">
 							<div class="catalog-item__subtitle">
-								Пульсометр Polar FT1
+								Пульсометр Suunto M2
 							</div>
 							<div class="catalog-item__desc">
 								Для первых шагов в тренировках, основанных на сердечном ритме
@@ -211,7 +211,7 @@
 								6 641 руб.
 							</div>
 						</div>
-						<button class="button button_mini">КУПИТЬ</button>
+						<button data-modal="order" class="button button_mini">КУПИТЬ</button>
 					</div>
 				</div>
 				<div class="catalog-item">
@@ -219,7 +219,7 @@
 						<div class="catalog-item__content catalog-item__content_active">
 							<img src="img/img_item.jpg" alt="img_item" class="catalog-item__img">
 							<div class="catalog-item__subtitle">
-								Пульсометр Polar FT1
+								Пульсометр Polar XF-1
 							</div>
 							<div class="catalog-item__desc">
 								Для первых шагов в тренировках, основанных на сердечном ритме
@@ -245,7 +245,7 @@
 								7 021 руб.
 							</div>
 						</div>
-						<button class="button button_mini">КУПИТЬ</button>
+						<button data-modal="order" class="button button_mini">КУПИТЬ</button>
 					</div>
 				</div>
 				<div class="catalog-item">
@@ -253,7 +253,7 @@
 						<div class="catalog-item__content catalog-item__content_active">
 							<img src="img/img_item.jpg" alt="img_item" class="catalog-item__img">
 							<div class="catalog-item__subtitle">
-								Пульсометр Polar FT1
+								Пульсометр Polar-XXL FT1
 							</div>
 							<div class="catalog-item__desc">
 								Для первых шагов в тренировках, основанных на сердечном ритме
@@ -279,7 +279,7 @@
 								8 300 руб.
 							</div>
 						</div>
-						<button class="button button_mini">КУПИТЬ</button>
+						<button data-modal="order" class="button button_mini">КУПИТЬ</button>
 					</div>
 				</div>
 				<div class="catalog-item">
@@ -287,7 +287,7 @@
 						<div class="catalog-item__content catalog-item__content_active">
 							<img src="img/img_item.jpg" alt="img_item" class="catalog-item__img">
 							<div class="catalog-item__subtitle">
-								Пульсометр Polar FT1
+								Пульсометр Polar-MAX X
 							</div>
 							<div class="catalog-item__desc">
 								Для первых шагов в тренировках, основанных на сердечном ритме
@@ -313,7 +313,7 @@
 								9 300 руб.
 							</div>
 						</div>
-						<button class="button button_mini">КУПИТЬ</button>
+						<button data-modal="order" class="button button_mini">КУПИТЬ</button>
 					</div>
 				</div>
 				<div class="catalog-item">
@@ -347,7 +347,7 @@
 								10 500 руб.
 							</div>
 						</div>
-						<button class="button button_mini">КУПИТЬ</button>
+						<button data-modal="order" class="button button_mini">КУПИТЬ</button>
 					</div>
 				</div>
 
@@ -384,7 +384,7 @@
 								4 500 руб.
 							</div>
 						</div>
-						<button class="button button_mini">КУПИТЬ</button>
+						<button data-modal="order" class="button button_mini">КУПИТЬ</button>
 					</div>
 				</div>
 				<div class="catalog-item">
@@ -418,7 +418,7 @@
 								10 500 руб.
 							</div>
 						</div>
-						<button class="button button_mini">КУПИТЬ</button>
+						<button data-modal="order" class="button button_mini">КУПИТЬ</button>
 					</div>
 				</div>
 			</div>
@@ -454,7 +454,7 @@
 								4 500 руб.
 							</div>
 						</div>
-						<button class="button button_mini">КУПИТЬ</button>
+						<button data-modal="order" class="button button_mini">КУПИТЬ</button>
 					</div>
 				</div>
 				<div class="catalog-item">
@@ -488,7 +488,7 @@
 								4 500 руб.
 							</div>
 						</div>
-						<button class="button button_mini">КУПИТЬ</button>
+						<button data-modal="order" class="button button_mini">КУПИТЬ</button>
 					</div>
 				</div>
 			</div>
@@ -555,10 +555,68 @@
 		</div>
 	</section>
 
+	<footer class="footer">
+		<!-- google maps -->
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.3639196093627!2d37.64656583477242!3d55.76796584313814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCAxMDcwNzg!5e0!3m2!1sru!2sru!4v1584910687848!5m2!1sru!2sru" width=100%" height="630" frameborder="0" style="border:0;" allowfullscreen="false" aria-hidden="true" tabindex="0"></iframe>
+
+		<!-- yandex maps -->
+		<!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6401411de389431f88218051ef90a82ba0a8b50989bd9d0d1a15d5b05bdeca8a&amp;source=constructor" width="100%" height="630" frameborder="0"></iframe> -->
+
+		<div class="footer__info">
+			<address class="footer__addres">Москва, Мясницкий проезд, д.3с1</address>
+			<a class="footer__phone" href="tel:84999228974">
+				8 (499) 922-89-74
+			</a>
+			<div class="footer__social">
+				<a class="footer__facebook" href=""><span class="icon-facebook-f-brands"></span></a>
+				<a class="footer__instagram" href=""><span class="icon-instagram"></span></a>
+				<a class="footer__p-brands" href=""><span class="icon-pinterest-p-brands"></span></a>
+			</div>
+		</div>
+	</footer>
+
+	<div class="overlay">
+		<div class="modal" id="consultation">
+			<div class="modal__close">&times;</div>
+			<h2 class="modal__title">Просто заполните форму заявки</h2>
+			<div class="modal__subtitle">и мы перезвоним вам в течении 10 минут</div>
+			<div class="modal__desc"></div>
+			<form class="feed-form feed-form-mt25" action="#">
+				<input name="name" required type="text" placeholder="Ваше имя">
+				<input name="phone" required type="number" placeholder="Ваше телефон">
+				<input name="email" required type="email" placeholder="Ваше E-mail">
+
+				<button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
+			</form>
+		</div>
+
+		<div class="modal" id="order">
+			<div class="modal__close">&times;</div>
+			<h2 class="modal__title">Ваш заказ:</h2>
+			<div class="modal__subtitle">Пульсометр Polar FT1</div>
+			<div class="modal__desc"></div>
+			<form class="feed-form feed-form-mt25" action="#">
+				<input name="name" required type="text" placeholder="Ваше имя">
+				<input name="phone" required type="number" placeholder="Ваше телефон">
+				<input name="email" required type="email" placeholder="Ваше E-mail">
+
+				<button class="button button_submit">Купить</button>
+			</form>
+		</div>
+
+		<div class="modal modal_mini" id="message">
+			<div class="modal__close">&times;</div>
+			<h2 class="modal__title">Спасибо за вашу заявку!</h2>
+			<div class="modal__subtitle">Наш менеджер свяжется с вами в ближайшее время!</div>
+			<div class="modal__desc"></div>
+		</div>
+	</div>
+
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/tabs.js"></script>
-	<script src="js/script.js"></script>
+	<script src="js/modalWindows.js"></script>
+	<script src="js/slider.js"></script>
 </body>
 </html>
