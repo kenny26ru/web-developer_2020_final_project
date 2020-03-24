@@ -19,4 +19,6 @@ $(document).ready(function(){
                         $('.overlay, #order').fadeIn();
                 });
         });
+
+        // $('#cons form').validate();
 });

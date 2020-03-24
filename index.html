@@ -110,10 +110,10 @@
 				Просто заполните форму заявки<br> 
 и мы перезвоним вам в течении 10 минут
 			</div>
-			<form class="feed-form" action="#">
-				<input name="name" required type="text" placeholder="Ваше имя">
-				<input name="phone" required type="number" placeholder="Ваше телефон">
-				<input name="email" required type="email" placeholder="Ваше E-mail">
+			<form id="consult-form" class="feed-form" action="#">
+				<input name="name" type="text" placeholder="Ваше имя">
+				<input name="phone" type="number" placeholder="Ваше телефон">
+				<input name="email" type="email" placeholder="Ваше E-mail">
 
 				<button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
 			</form>
@@ -576,17 +576,17 @@
 	</footer>
 
 	<div class="overlay">
+
 		<div class="modal" id="consultation">
 			<div class="modal__close">&times;</div>
 			<h2 class="modal__title">Просто заполните форму заявки</h2>
 			<div class="modal__subtitle">и мы перезвоним вам в течении 10 минут</div>
-			<div class="modal__desc"></div>
 			<form class="feed-form feed-form-mt25" action="#">
-				<input name="name" required type="text" placeholder="Ваше имя">
-				<input name="phone" required type="number" placeholder="Ваше телефон">
-				<input name="email" required type="email" placeholder="Ваше E-mail">
+				<input name="name" type="text" placeholder="Ваше имя">
+				<input name="phone" type="number" placeholder="Ваше телефон">
+				<input name="email" type="email" placeholder="Ваш E-mail">
 
-				<button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
+				<button class="button button_submit">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</button>
 			</form>
 		</div>
 
@@ -594,7 +594,6 @@
 			<div class="modal__close">&times;</div>
 			<h2 class="modal__title">Ваш заказ:</h2>
 			<div class="modal__subtitle">Пульсометр Polar FT1</div>
-			<div class="modal__desc"></div>
 			<form class="feed-form feed-form-mt25" action="#">
 				<input name="name" required type="text" placeholder="Ваше имя">
 				<input name="phone" required type="number" placeholder="Ваше телефон">
@@ -608,15 +607,16 @@
 			<div class="modal__close">&times;</div>
 			<h2 class="modal__title">Спасибо за вашу заявку!</h2>
 			<div class="modal__subtitle">Наш менеджер свяжется с вами в ближайшее время!</div>
-			<div class="modal__desc"></div>
 		</div>
 	</div>
 
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
 	<script src="js/tabs.js"></script>
 	<script src="js/modalWindows.js"></script>
 	<script src="js/slider.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
