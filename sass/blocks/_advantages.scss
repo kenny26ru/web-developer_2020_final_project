@@ -41,5 +41,14 @@
 			text-decoration: underline;
 		}
 	}
+	&__icon{
+		&_animated{
+			animation: heartBeat 2s;
+			animation-name: heartBeat;
+			animation-duration: 2s;
+			animation-timing-function: steps(2,jump-none);
+			animation-iteration-count: infinite;
+		}
+	}
 }
 
